@@ -1,0 +1,32 @@
+package csc143.data_structures;
+
+public class MyBoundedQueue implements BoundedQueue {
+  
+  public void enqueue(Object o) throws Overfill{
+    
+  }
+  
+  public Object dequeue()throws Underempty{
+    return null;
+    
+  }
+  
+  public boolean isNotEmpty(){
+   return false; 
+  }
+  
+  public boolean isNotFull(){
+   return false; 
+  }
+  
+  public int size(){
+    return 0;
+  }
+  
+  public String toString(){
+    return null;
+  }
+ 
+  public int capacity();
+  return 0;
+}

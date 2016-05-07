@@ -1,0 +1,30 @@
+package csc143.data_structures;
+
+public class MyUnboundedStack() {
+  
+}
+
+public void push(Object o) {
+}
+
+public Object pop()throws Underempty{
+  return null;
+}
+
+public boolean isNotEmpty(){
+  return false;
+}
+
+public int size(){
+  return 0;
+}
+
+public String toString(){
+  return null;
+}
+
+public int capacity(){
+  return 0;
+
+}
+}

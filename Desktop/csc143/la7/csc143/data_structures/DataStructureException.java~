@@ -1,0 +1,9 @@
+package csc143.data_structures;
+
+public class DataStructureException extends java.lang.Exception {
+  
+  public DataStructureException(String msg){
+    super(msg);
+  }
+}
+    

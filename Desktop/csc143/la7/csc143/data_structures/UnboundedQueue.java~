@@ -1,0 +1,12 @@
+package csc143.data_structures;
+
+public interface UnboundedQueue {
+  
+  public void enqueue(Object o) ;
+  
+  public Object dequeue()throws Underempty;
+  
+  public boolean isNotEmpty();
+
+  
+}
